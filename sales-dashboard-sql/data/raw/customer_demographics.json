@@ -1,0 +1,842 @@
+[
+  {
+    "CustomerID": "C101",
+    "CustomerName": "Customer C101",
+    "CustomerSegment": "Regular",
+    "City": "Chicago",
+    "Country": "USA"
+  },
+  {
+    "CustomerID": "C102",
+    "CustomerName": "Customer C102",
+    "CustomerSegment": "High-Value",
+    "City": "Paris",
+    "Country": "France"
+  },
+  {
+    "CustomerID": "C103",
+    "CustomerName": "Customer C103",
+    "CustomerSegment": "High-Value",
+    "City": "Los Angeles",
+    "Country": "USA"
+  },
+  {
+    "CustomerID": "C104",
+    "CustomerName": "Customer C104",
+    "CustomerSegment": "High-Value",
+    "City": "Los Angeles",
+    "Country": "USA"
+  },
+  {
+    "CustomerID": "C105",
+    "CustomerName": "Customer C105",
+    "CustomerSegment": "New",
+    "City": "Paris",
+    "Country": "France"
+  },
+  {
+    "CustomerID": "C106",
+    "CustomerName": "Customer C106",
+    "CustomerSegment": "New",
+    "City": "London",
+    "Country": "UK"
+  },
+  {
+    "CustomerID": "C107",
+    "CustomerName": "Customer C107",
+    "CustomerSegment": "High-Value",
+    "City": "Berlin",
+    "Country": "Germany"
+  },
+  {
+    "CustomerID": "C108",
+    "CustomerName": "Customer C108",
+    "CustomerSegment": "New",
+    "City": "London",
+    "Country": "UK"
+  },
+  {
+    "CustomerID": "C109",
+    "CustomerName": "Customer C109",
+    "CustomerSegment": "New",
+    "City": "Berlin",
+    "Country": "Germany"
+  },
+  {
+    "CustomerID": "C110",
+    "CustomerName": "Customer C110",
+    "CustomerSegment": "High-Value",
+    "City": "Berlin",
+    "Country": "Germany"
+  },
+  {
+    "CustomerID": "C111",
+    "CustomerName": "Customer C111",
+    "CustomerSegment": "High-Value",
+    "City": "Tokyo",
+    "Country": "Japan"
+  },
+  {
+    "CustomerID": "C112",
+    "CustomerName": "Customer C112",
+    "CustomerSegment": "Regular",
+    "City": "Tokyo",
+    "Country": "Japan"
+  },
+  {
+    "CustomerID": "C113",
+    "CustomerName": "Customer C113",
+    "CustomerSegment": "High-Value",
+    "City": "New York",
+    "Country": "USA"
+  },
+  {
+    "CustomerID": "C114",
+    "CustomerName": "Customer C114",
+    "CustomerSegment": "Regular",
+    "City": "Paris",
+    "Country": "France"
+  },
+  {
+    "CustomerID": "C115",
+    "CustomerName": "Customer C115",
+    "CustomerSegment": "High-Value",
+    "City": "Singapore",
+    "Country": "Singapore"
+  },
+  {
+    "CustomerID": "C116",
+    "CustomerName": "Customer C116",
+    "CustomerSegment": "High-Value",
+    "City": "Paris",
+    "Country": "France"
+  },
+  {
+    "CustomerID": "C117",
+    "CustomerName": "Customer C117",
+    "CustomerSegment": "New",
+    "City": "Singapore",
+    "Country": "Singapore"
+  },
+  {
+    "CustomerID": "C118",
+    "CustomerName": "Customer C118",
+    "CustomerSegment": "High-Value",
+    "City": "Shanghai",
+    "Country": "China"
+  },
+  {
+    "CustomerID": "C119",
+    "CustomerName": "Customer C119",
+    "CustomerSegment": "High-Value",
+    "City": "Shanghai",
+    "Country": "China"
+  },
+  {
+    "CustomerID": "C120",
+    "CustomerName": "Customer C120",
+    "CustomerSegment": "High-Value",
+    "City": "Shanghai",
+    "Country": "China"
+  },
+  {
+    "CustomerID": "C121",
+    "CustomerName": "Customer C121",
+    "CustomerSegment": "Regular",
+    "City": "Los Angeles",
+    "Country": "USA"
+  },
+  {
+    "CustomerID": "C122",
+    "CustomerName": "Customer C122",
+    "CustomerSegment": "New",
+    "City": "Berlin",
+    "Country": "Germany"
+  },
+  {
+    "CustomerID": "C123",
+    "CustomerName": "Customer C123",
+    "CustomerSegment": "New",
+    "City": "Tokyo",
+    "Country": "Japan"
+  },
+  {
+    "CustomerID": "C124",
+    "CustomerName": "Customer C124",
+    "CustomerSegment": "High-Value",
+    "City": "London",
+    "Country": "UK"
+  },
+  {
+    "CustomerID": "C125",
+    "CustomerName": "Customer C125",
+    "CustomerSegment": "Regular",
+    "City": "Los Angeles",
+    "Country": "USA"
+  },
+  {
+    "CustomerID": "C126",
+    "CustomerName": "Customer C126",
+    "CustomerSegment": "High-Value",
+    "City": "London",
+    "Country": "UK"
+  },
+  {
+    "CustomerID": "C127",
+    "CustomerName": "Customer C127",
+    "CustomerSegment": "Regular",
+    "City": "Shanghai",
+    "Country": "China"
+  },
+  {
+    "CustomerID": "C128",
+    "CustomerName": "Customer C128",
+    "CustomerSegment": "Regular",
+    "City": "Chicago",
+    "Country": "USA"
+  },
+  {
+    "CustomerID": "C129",
+    "CustomerName": "Customer C129",
+    "CustomerSegment": "Regular",
+    "City": "Berlin",
+    "Country": "Germany"
+  },
+  {
+    "CustomerID": "C130",
+    "CustomerName": "Customer C130",
+    "CustomerSegment": "High-Value",
+    "City": "Los Angeles",
+    "Country": "USA"
+  },
+  {
+    "CustomerID": "C131",
+    "CustomerName": "Customer C131",
+    "CustomerSegment": "New",
+    "City": "Chicago",
+    "Country": "USA"
+  },
+  {
+    "CustomerID": "C132",
+    "CustomerName": "Customer C132",
+    "CustomerSegment": "New",
+    "City": "Singapore",
+    "Country": "Singapore"
+  },
+  {
+    "CustomerID": "C133",
+    "CustomerName": "Customer C133",
+    "CustomerSegment": "New",
+    "City": "Singapore",
+    "Country": "Singapore"
+  },
+  {
+    "CustomerID": "C134",
+    "CustomerName": "Customer C134",
+    "CustomerSegment": "High-Value",
+    "City": "Paris",
+    "Country": "France"
+  },
+  {
+    "CustomerID": "C135",
+    "CustomerName": "Customer C135",
+    "CustomerSegment": "Regular",
+    "City": "Chicago",
+    "Country": "USA"
+  },
+  {
+    "CustomerID": "C136",
+    "CustomerName": "Customer C136",
+    "CustomerSegment": "High-Value",
+    "City": "New York",
+    "Country": "USA"
+  },
+  {
+    "CustomerID": "C137",
+    "CustomerName": "Customer C137",
+    "CustomerSegment": "High-Value",
+    "City": "Chicago",
+    "Country": "USA"
+  },
+  {
+    "CustomerID": "C138",
+    "CustomerName": "Customer C138",
+    "CustomerSegment": "New",
+    "City": "Singapore",
+    "Country": "Singapore"
+  },
+  {
+    "CustomerID": "C139",
+    "CustomerName": "Customer C139",
+    "CustomerSegment": "Regular",
+    "City": "Los Angeles",
+    "Country": "USA"
+  },
+  {
+    "CustomerID": "C140",
+    "CustomerName": "Customer C140",
+    "CustomerSegment": "New",
+    "City": "Singapore",
+    "Country": "Singapore"
+  },
+  {
+    "CustomerID": "C141",
+    "CustomerName": "Customer C141",
+    "CustomerSegment": "High-Value",
+    "City": "Berlin",
+    "Country": "Germany"
+  },
+  {
+    "CustomerID": "C142",
+    "CustomerName": "Customer C142",
+    "CustomerSegment": "High-Value",
+    "City": "Shanghai",
+    "Country": "China"
+  },
+  {
+    "CustomerID": "C143",
+    "CustomerName": "Customer C143",
+    "CustomerSegment": "Regular",
+    "City": "Shanghai",
+    "Country": "China"
+  },
+  {
+    "CustomerID": "C144",
+    "CustomerName": "Customer C144",
+    "CustomerSegment": "High-Value",
+    "City": "Singapore",
+    "Country": "Singapore"
+  },
+  {
+    "CustomerID": "C145",
+    "CustomerName": "Customer C145",
+    "CustomerSegment": "High-Value",
+    "City": "Paris",
+    "Country": "France"
+  },
+  {
+    "CustomerID": "C146",
+    "CustomerName": "Customer C146",
+    "CustomerSegment": "New",
+    "City": "London",
+    "Country": "UK"
+  },
+  {
+    "CustomerID": "C147",
+    "CustomerName": "Customer C147",
+    "CustomerSegment": "New",
+    "City": "Singapore",
+    "Country": "Singapore"
+  },
+  {
+    "CustomerID": "C148",
+    "CustomerName": "Customer C148",
+    "CustomerSegment": "High-Value",
+    "City": "Chicago",
+    "Country": "USA"
+  },
+  {
+    "CustomerID": "C149",
+    "CustomerName": "Customer C149",
+    "CustomerSegment": "New",
+    "City": "Singapore",
+    "Country": "Singapore"
+  },
+  {
+    "CustomerID": "C150",
+    "CustomerName": "Customer C150",
+    "CustomerSegment": "High-Value",
+    "City": "Shanghai",
+    "Country": "China"
+  },
+  {
+    "CustomerID": "C151",
+    "CustomerName": "Customer C151",
+    "CustomerSegment": "High-Value",
+    "City": "Los Angeles",
+    "Country": "USA"
+  },
+  {
+    "CustomerID": "C152",
+    "CustomerName": "Customer C152",
+    "CustomerSegment": "High-Value",
+    "City": "Shanghai",
+    "Country": "China"
+  },
+  {
+    "CustomerID": "C153",
+    "CustomerName": "Customer C153",
+    "CustomerSegment": "Regular",
+    "City": "Singapore",
+    "Country": "Singapore"
+  },
+  {
+    "CustomerID": "C154",
+    "CustomerName": "Customer C154",
+    "CustomerSegment": "Regular",
+    "City": "New York",
+    "Country": "USA"
+  },
+  {
+    "CustomerID": "C155",
+    "CustomerName": "Customer C155",
+    "CustomerSegment": "High-Value",
+    "City": "London",
+    "Country": "UK"
+  },
+  {
+    "CustomerID": "C156",
+    "CustomerName": "Customer C156",
+    "CustomerSegment": "High-Value",
+    "City": "Chicago",
+    "Country": "USA"
+  },
+  {
+    "CustomerID": "C157",
+    "CustomerName": "Customer C157",
+    "CustomerSegment": "Regular",
+    "City": "Chicago",
+    "Country": "USA"
+  },
+  {
+    "CustomerID": "C158",
+    "CustomerName": "Customer C158",
+    "CustomerSegment": "High-Value",
+    "City": "Chicago",
+    "Country": "USA"
+  },
+  {
+    "CustomerID": "C159",
+    "CustomerName": "Customer C159",
+    "CustomerSegment": "Regular",
+    "City": "Chicago",
+    "Country": "USA"
+  },
+  {
+    "CustomerID": "C160",
+    "CustomerName": "Customer C160",
+    "CustomerSegment": "Regular",
+    "City": "Tokyo",
+    "Country": "Japan"
+  },
+  {
+    "CustomerID": "C161",
+    "CustomerName": "Customer C161",
+    "CustomerSegment": "Regular",
+    "City": "Shanghai",
+    "Country": "China"
+  },
+  {
+    "CustomerID": "C162",
+    "CustomerName": "Customer C162",
+    "CustomerSegment": "New",
+    "City": "Chicago",
+    "Country": "USA"
+  },
+  {
+    "CustomerID": "C163",
+    "CustomerName": "Customer C163",
+    "CustomerSegment": "New",
+    "City": "Tokyo",
+    "Country": "Japan"
+  },
+  {
+    "CustomerID": "C164",
+    "CustomerName": "Customer C164",
+    "CustomerSegment": "New",
+    "City": "Paris",
+    "Country": "France"
+  },
+  {
+    "CustomerID": "C165",
+    "CustomerName": "Customer C165",
+    "CustomerSegment": "Regular",
+    "City": "Singapore",
+    "Country": "Singapore"
+  },
+  {
+    "CustomerID": "C166",
+    "CustomerName": "Customer C166",
+    "CustomerSegment": "High-Value",
+    "City": "Singapore",
+    "Country": "Singapore"
+  },
+  {
+    "CustomerID": "C167",
+    "CustomerName": "Customer C167",
+    "CustomerSegment": "High-Value",
+    "City": "New York",
+    "Country": "USA"
+  },
+  {
+    "CustomerID": "C168",
+    "CustomerName": "Customer C168",
+    "CustomerSegment": "New",
+    "City": "London",
+    "Country": "UK"
+  },
+  {
+    "CustomerID": "C169",
+    "CustomerName": "Customer C169",
+    "CustomerSegment": "New",
+    "City": "Tokyo",
+    "Country": "Japan"
+  },
+  {
+    "CustomerID": "C170",
+    "CustomerName": "Customer C170",
+    "CustomerSegment": "High-Value",
+    "City": "New York",
+    "Country": "USA"
+  },
+  {
+    "CustomerID": "C171",
+    "CustomerName": "Customer C171",
+    "CustomerSegment": "High-Value",
+    "City": "Shanghai",
+    "Country": "China"
+  },
+  {
+    "CustomerID": "C172",
+    "CustomerName": "Customer C172",
+    "CustomerSegment": "High-Value",
+    "City": "New York",
+    "Country": "USA"
+  },
+  {
+    "CustomerID": "C173",
+    "CustomerName": "Customer C173",
+    "CustomerSegment": "New",
+    "City": "London",
+    "Country": "UK"
+  },
+  {
+    "CustomerID": "C174",
+    "CustomerName": "Customer C174",
+    "CustomerSegment": "New",
+    "City": "Los Angeles",
+    "Country": "USA"
+  },
+  {
+    "CustomerID": "C175",
+    "CustomerName": "Customer C175",
+    "CustomerSegment": "New",
+    "City": "London",
+    "Country": "UK"
+  },
+  {
+    "CustomerID": "C176",
+    "CustomerName": "Customer C176",
+    "CustomerSegment": "New",
+    "City": "Chicago",
+    "Country": "USA"
+  },
+  {
+    "CustomerID": "C177",
+    "CustomerName": "Customer C177",
+    "CustomerSegment": "High-Value",
+    "City": "Singapore",
+    "Country": "Singapore"
+  },
+  {
+    "CustomerID": "C178",
+    "CustomerName": "Customer C178",
+    "CustomerSegment": "High-Value",
+    "City": "Paris",
+    "Country": "France"
+  },
+  {
+    "CustomerID": "C179",
+    "CustomerName": "Customer C179",
+    "CustomerSegment": "New",
+    "City": "New York",
+    "Country": "USA"
+  },
+  {
+    "CustomerID": "C180",
+    "CustomerName": "Customer C180",
+    "CustomerSegment": "Regular",
+    "City": "Paris",
+    "Country": "France"
+  },
+  {
+    "CustomerID": "C181",
+    "CustomerName": "Customer C181",
+    "CustomerSegment": "New",
+    "City": "Paris",
+    "Country": "France"
+  },
+  {
+    "CustomerID": "C182",
+    "CustomerName": "Customer C182",
+    "CustomerSegment": "New",
+    "City": "Chicago",
+    "Country": "USA"
+  },
+  {
+    "CustomerID": "C183",
+    "CustomerName": "Customer C183",
+    "CustomerSegment": "High-Value",
+    "City": "Tokyo",
+    "Country": "Japan"
+  },
+  {
+    "CustomerID": "C184",
+    "CustomerName": "Customer C184",
+    "CustomerSegment": "Regular",
+    "City": "Berlin",
+    "Country": "Germany"
+  },
+  {
+    "CustomerID": "C185",
+    "CustomerName": "Customer C185",
+    "CustomerSegment": "High-Value",
+    "City": "New York",
+    "Country": "USA"
+  },
+  {
+    "CustomerID": "C186",
+    "CustomerName": "Customer C186",
+    "CustomerSegment": "Regular",
+    "City": "Chicago",
+    "Country": "USA"
+  },
+  {
+    "CustomerID": "C187",
+    "CustomerName": "Customer C187",
+    "CustomerSegment": "High-Value",
+    "City": "Los Angeles",
+    "Country": "USA"
+  },
+  {
+    "CustomerID": "C188",
+    "CustomerName": "Customer C188",
+    "CustomerSegment": "High-Value",
+    "City": "Paris",
+    "Country": "France"
+  },
+  {
+    "CustomerID": "C189",
+    "CustomerName": "Customer C189",
+    "CustomerSegment": "New",
+    "City": "Los Angeles",
+    "Country": "USA"
+  },
+  {
+    "CustomerID": "C190",
+    "CustomerName": "Customer C190",
+    "CustomerSegment": "New",
+    "City": "New York",
+    "Country": "USA"
+  },
+  {
+    "CustomerID": "C191",
+    "CustomerName": "Customer C191",
+    "CustomerSegment": "High-Value",
+    "City": "Tokyo",
+    "Country": "Japan"
+  },
+  {
+    "CustomerID": "C192",
+    "CustomerName": "Customer C192",
+    "CustomerSegment": "Regular",
+    "City": "New York",
+    "Country": "USA"
+  },
+  {
+    "CustomerID": "C193",
+    "CustomerName": "Customer C193",
+    "CustomerSegment": "High-Value",
+    "City": "Paris",
+    "Country": "France"
+  },
+  {
+    "CustomerID": "C194",
+    "CustomerName": "Customer C194",
+    "CustomerSegment": "High-Value",
+    "City": "London",
+    "Country": "UK"
+  },
+  {
+    "CustomerID": "C195",
+    "CustomerName": "Customer C195",
+    "CustomerSegment": "Regular",
+    "City": "London",
+    "Country": "UK"
+  },
+  {
+    "CustomerID": "C196",
+    "CustomerName": "Customer C196",
+    "CustomerSegment": "Regular",
+    "City": "Paris",
+    "Country": "France"
+  },
+  {
+    "CustomerID": "C197",
+    "CustomerName": "Customer C197",
+    "CustomerSegment": "New",
+    "City": "Berlin",
+    "Country": "Germany"
+  },
+  {
+    "CustomerID": "C198",
+    "CustomerName": "Customer C198",
+    "CustomerSegment": "New",
+    "City": "Shanghai",
+    "Country": "China"
+  },
+  {
+    "CustomerID": "C199",
+    "CustomerName": "Customer C199",
+    "CustomerSegment": "High-Value",
+    "City": "London",
+    "Country": "UK"
+  },
+  {
+    "CustomerID": "C200",
+    "CustomerName": "Customer C200",
+    "CustomerSegment": "High-Value",
+    "City": "London",
+    "Country": "UK"
+  },
+  {
+    "CustomerID": "C201",
+    "CustomerName": "Customer C201",
+    "CustomerSegment": "New",
+    "City": "Shanghai",
+    "Country": "China"
+  },
+  {
+    "CustomerID": "C202",
+    "CustomerName": "Customer C202",
+    "CustomerSegment": "Regular",
+    "City": "Chicago",
+    "Country": "USA"
+  },
+  {
+    "CustomerID": "C203",
+    "CustomerName": "Customer C203",
+    "CustomerSegment": "New",
+    "City": "New York",
+    "Country": "USA"
+  },
+  {
+    "CustomerID": "C204",
+    "CustomerName": "Customer C204",
+    "CustomerSegment": "New",
+    "City": "Berlin",
+    "Country": "Germany"
+  },
+  {
+    "CustomerID": "C205",
+    "CustomerName": "Customer C205",
+    "CustomerSegment": "New",
+    "City": "New York",
+    "Country": "USA"
+  },
+  {
+    "CustomerID": "C206",
+    "CustomerName": "Customer C206",
+    "CustomerSegment": "High-Value",
+    "City": "New York",
+    "Country": "USA"
+  },
+  {
+    "CustomerID": "C207",
+    "CustomerName": "Customer C207",
+    "CustomerSegment": "New",
+    "City": "Tokyo",
+    "Country": "Japan"
+  },
+  {
+    "CustomerID": "C208",
+    "CustomerName": "Customer C208",
+    "CustomerSegment": "High-Value",
+    "City": "Los Angeles",
+    "Country": "USA"
+  },
+  {
+    "CustomerID": "C209",
+    "CustomerName": "Customer C209",
+    "CustomerSegment": "New",
+    "City": "Tokyo",
+    "Country": "Japan"
+  },
+  {
+    "CustomerID": "C210",
+    "CustomerName": "Customer C210",
+    "CustomerSegment": "New",
+    "City": "Tokyo",
+    "Country": "Japan"
+  },
+  {
+    "CustomerID": "C211",
+    "CustomerName": "Customer C211",
+    "CustomerSegment": "New",
+    "City": "Los Angeles",
+    "Country": "USA"
+  },
+  {
+    "CustomerID": "C212",
+    "CustomerName": "Customer C212",
+    "CustomerSegment": "New",
+    "City": "Shanghai",
+    "Country": "China"
+  },
+  {
+    "CustomerID": "C213",
+    "CustomerName": "Customer C213",
+    "CustomerSegment": "High-Value",
+    "City": "Paris",
+    "Country": "France"
+  },
+  {
+    "CustomerID": "C214",
+    "CustomerName": "Customer C214",
+    "CustomerSegment": "Regular",
+    "City": "Shanghai",
+    "Country": "China"
+  },
+  {
+    "CustomerID": "C215",
+    "CustomerName": "Customer C215",
+    "CustomerSegment": "Regular",
+    "City": "Los Angeles",
+    "Country": "USA"
+  },
+  {
+    "CustomerID": "C216",
+    "CustomerName": "Customer C216",
+    "CustomerSegment": "New",
+    "City": "Chicago",
+    "Country": "USA"
+  },
+  {
+    "CustomerID": "C217",
+    "CustomerName": "Customer C217",
+    "CustomerSegment": "Regular",
+    "City": "Paris",
+    "Country": "France"
+  },
+  {
+    "CustomerID": "C218",
+    "CustomerName": "Customer C218",
+    "CustomerSegment": "Regular",
+    "City": "New York",
+    "Country": "USA"
+  },
+  {
+    "CustomerID": "C219",
+    "CustomerName": "Customer C219",
+    "CustomerSegment": "High-Value",
+    "City": "Shanghai",
+    "Country": "China"
+  },
+  {
+    "CustomerID": "C220",
+    "CustomerName": "Customer C220",
+    "CustomerSegment": "High-Value",
+    "City": "Chicago",
+    "Country": "USA"
+  }
+]

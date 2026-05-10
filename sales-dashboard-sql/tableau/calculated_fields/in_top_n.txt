@@ -1,0 +1,24 @@
+// ============================================================
+// FIELD: In Top N
+// TYPE:  Table Calculation (Boolean)
+// USAGE: Filter shelf — returns TRUE for top N products
+// LINKED TO: Top N integer parameter (range 3–20, default 10)
+// ============================================================
+
+RANK(SUM([Gross Sales]), 'desc') <= [Top N]
+
+// ── Setup ────────────────────────────────────────────────────
+// 1. Add this field to the Filters shelf
+// 2. Select TRUE in the filter dialog
+// 3. Right-click → Edit Table Calculation → Compute Using: ProductID
+// 4. Right-click Top N parameter → Show Parameter
+//    (slider appears on sheet — drag to change N live)
+//
+// ── Why table calc filter instead of data-level filter ───────
+// Data-level Top N filter (the simple "Top" tab in filter dialog)
+// does NOT respect other dashboard filters — it always shows the
+// same 10 products regardless of Region/Segment filter state.
+//
+// Table calc filter evaluates AFTER all data filters,
+// so Top N recalculates for whatever the current filter state is.
+// This is the correct architect-level approach.

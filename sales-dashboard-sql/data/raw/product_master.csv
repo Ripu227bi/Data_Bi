@@ -1,0 +1,21 @@
+ProductID,ProductName,ProductCategory,ProductSubcategory,CostPrice
+P001,Computers P001,Electronics,Computers,58.19
+P002,Audio P002,Electronics,Audio,101.75
+P003,Cameras P003,Electronics,Cameras,23.97
+P004,Accessories P004,Electronics,Accessories,115.62
+P005,Computers P005,Electronics,Computers,60.92
+P006,Furniture P006,Home Goods,Furniture,147.37
+P007,Kitchenware P007,Home Goods,Kitchenware,65.31
+P008,Bedding P008,Home Goods,Bedding,21.32
+P009,Furniture P009,Home Goods,Furniture,129.53
+P010,Kitchenware P010,Home Goods,Kitchenware,41.04
+P011,Footwear P011,Apparel,Footwear,115.3
+P012,Outerwear P012,Apparel,Outerwear,54.42
+P013,Accessories P013,Apparel,Accessories,20.47
+P014,Footwear P014,Apparel,Footwear,113.92
+P015,Outerwear P015,Apparel,Outerwear,58.49
+P016,Accessories P016,Apparel,Accessories,27.77
+P017,Footwear P017,Apparel,Footwear,115.43
+P018,Outerwear P018,Apparel,Outerwear,141.25
+P019,Accessories P019,Apparel,Accessories,62.98
+P020,Footwear P020,Apparel,Footwear,20.19

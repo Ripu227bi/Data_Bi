@@ -1,0 +1,15 @@
+// ============================================================
+// FIELD: Profit
+// TYPE:  Aggregate
+// USAGE: Profit KPI, Trend Chart dual axis, Margin calculation
+// ============================================================
+
+SUM(([UnitPrice] - IFNULL([CostPrice], 0)) * [Quantity])
+
+// ── Notes ────────────────────────────────────────────────────
+// IFNULL([CostPrice], 0) — handles missing cost data gracefully.
+// Without IFNULL, a single NULL CostPrice makes the entire
+// grand total return NULL.
+//
+// SUM() wraps the entire expression — NOT SUM([UnitPrice]) - SUM([CostPrice])
+// which would give a wrong grand total.

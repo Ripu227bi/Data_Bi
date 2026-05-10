@@ -1,0 +1,76 @@
+Steps to be used to create a Sales Db and than create a schema with transaction table as per the provided sales transaction csv :
+
+
+
+1.CREATE DATABASE IF NOT EXISTS sales_db;
+CREATE USER 'bi_reader'@'%' IDENTIFIED BY 'BIread2024!';
+GRANT SELECT ON sales_db.* TO 'bi_reader'@'%';
+FLUSH PRIVILEGES;
+SELECT user, host FROM mysql.user;
+
+2. USE sales_db;
+
+3.-- Fact table
+CREATE TABLE IF NOT EXISTS sales_transactions (
+    TransactionID   INT            NOT NULL,
+    ProductID       VARCHAR(10)    NOT NULL,
+    CustomerID      VARCHAR(10)    NOT NULL,
+    SaleDate        DATE           NOT NULL,
+    Quantity        INT            NOT NULL,
+    UnitPrice       DECIMAL(10,2)  NOT NULL,
+    Region          VARCHAR(50),
+    SalesChannel    VARCHAR(50),
+    PRIMARY KEY (TransactionID),
+    INDEX idx_product   (ProductID),
+    INDEX idx_customer  (CustomerID),
+    INDEX idx_date      (SaleDate),
+    INDEX idx_region    (Region),
+    INDEX idx_channel   (SalesChannel)
+);
+
+
+4. Load the Sales transaction csv into the MySQL table :
+
+       SHOW VARIABLES LIKE 'secure_file_priv';     //  use this path only to upload the csv from secure path
+---------------------------------
+LOAD DATA INFILE
+ 'C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\sales_transactions.csv'
+INTO TABLE sales_transactions
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS           -- skips the header row
+(TransactionID, ProductID, CustomerID,
+ @sale_date, Quantity, UnitPrice, Region, SalesChannel)
+SET SaleDate = STR_TO_DATE(@sale_date, '%Y-%m-%d');
+
+====
+
+USE sales_db;
+LOAD DATA INFILE 'C:\Users\vikra\OneDrive\Desktop\Deautche_Case\sales_transactions_5000_fixed.csv'
+INTO TABLE sales_transactions
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS           -- skips the header row
+(TransactionID, ProductID, CustomerID,
+ @sale_date, Quantity, UnitPrice, Region, SalesChannel)
+SET SaleDate = STR_TO_DATE(@sale_date, '%Y-%m-%d');sales_transactions
+
+
+5. check the count in table to make sure all records are loaded into the table :
+
+    SELECT count(*) FROM sales_db.sales_transactions;
+
+
+
+6. Create a user to read from the transaction table to be used in Tableau :
+
+ALTER USER 'bi_reader'@'%'
+  IDENTIFIED WITH mysql_native_password
+  BY 'BIread2024!';
+
+FLUSH PRIVILEGES;
+
+
+Now the source table in MYSQL is ready to be sourced and anlysed in tableau.

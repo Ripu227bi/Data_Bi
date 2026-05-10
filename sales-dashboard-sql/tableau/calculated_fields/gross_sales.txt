@@ -1,0 +1,12 @@
+// ============================================================
+// FIELD: Gross Sales
+// TYPE:  Aggregate
+// USAGE: Revenue KPI, Trend Chart, all bar charts
+// ============================================================
+
+SUM([UnitPrice] * [Quantity])
+
+// ── Notes ────────────────────────────────────────────────────
+// SUM() wrapper is required.
+// Without it, grand total would apply UnitPrice*Quantity to
+// aggregated column values — giving a wrong result.

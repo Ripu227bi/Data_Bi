@@ -1,0 +1,19 @@
+// ============================================================
+// FIELD: YoY Growth %
+// TYPE:  Table Calculation (requires Compute Using: Date)
+// USAGE: KPI card delta indicator
+// ============================================================
+
+(SUM([Gross Sales]) - LOOKUP(SUM([Gross Sales]), -1))
+/ ABS(LOOKUP(SUM([Gross Sales]), -1))
+* 100
+
+// ── Setup ────────────────────────────────────────────────────
+// After adding to chart:
+//   Right-click → Edit Table Calculation
+//   Compute Using: → specific dimensions → Date field
+//
+// ── Notes ────────────────────────────────────────────────────
+// LOOKUP(..., -1) looks at the previous period.
+// ABS() in denominator prevents sign flip when base is negative.
+// Used with Arrow Delta field on KPI cards for ▲/▼ display.

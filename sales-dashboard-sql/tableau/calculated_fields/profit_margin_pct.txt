@@ -1,0 +1,18 @@
+// ============================================================
+// FIELD: Profit Margin %
+// TYPE:  Aggregate ratio
+// USAGE: KPI card, Trend dual axis, Treemap color, Channel bar
+// ============================================================
+
+SUM([Profit]) / SUM([Gross Sales]) * 100
+
+// ── Notes ────────────────────────────────────────────────────
+// Always use SUM([Profit]) / SUM([Gross Sales]).
+// NEVER use [Profit] / [Gross Sales] — this would average
+// row-level percentages instead of computing aggregate margin.
+//
+// Example of why it matters:
+//   Row 1: profit=$200, sales=$400  → 50%
+//   Row 2: profit=$100, sales=$1000 → 10%
+//   Correct total: $300/$1400 = 21.4%
+//   Wrong (average of %): (50+10)/2 = 30%  ← inflated

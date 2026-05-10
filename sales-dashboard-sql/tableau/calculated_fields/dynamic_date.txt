@@ -1,0 +1,21 @@
+// ============================================================
+// FIELD: Dynamic Date
+// TYPE:  Calculated (string → date trunc)
+// USAGE: Trend Chart Columns shelf — drives granularity toggle
+// LINKED TO: Date Granularity parameter (Year/Quarter/Month)
+// ============================================================
+
+IF [Date Granularity] = "Year"
+THEN DATETRUNC('year',    [SaleDate])
+ELSEIF [Date Granularity] = "Quarter"
+THEN DATETRUNC('quarter', [SaleDate])
+ELSE DATETRUNC('month',   [SaleDate])
+END
+
+// ── Notes ────────────────────────────────────────────────────
+// This field replaces a hard-coded MONTH(SaleDate) or similar.
+// When the user clicks Year/Quarter/Month on the dashboard,
+// all charts using Dynamic Date update simultaneously.
+//
+// Right-click Date Granularity parameter → Show Parameter
+// to display the toggle control on the sheet/dashboard.
